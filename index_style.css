@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #ffeefb;
+  padding: 3rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fefefe;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #fefefe;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: inline-block;
+  background-color: #4591d3;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+}
+
+.intro-lead {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  margin: 1.5rem auto;
+}
+
+h1 {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 2.5em;
+  color: #c968b3;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0.3em;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #444444;
+  margin: 1.5em 0 1em 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #743675;
+  margin: 1.5em 0;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #444444;
+  margin: 1.5em 0;
+}
+
+p {
+  margin: 1.5em 0;
+  text-align: justify;
+  padding: 0 1rem;
+  line-height: 2;
+}
+
+ul, ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-image {
+  float: left;
+  max-width: 40%;
+  height: auto;
+  margin: 0.5em 2.8em 2.8em 0;
+}
+
+#games-img {
+  max-width: 50%;
+}
+
+.content-wrapper {
+  overflow: hidden;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+.content-wrapper p {
+  font-size: 1.15rem;
+}
+
+.clear-list {
+  clear: both;
+}

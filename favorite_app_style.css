@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #fceded;
+  padding: 3rem 0;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #fefefe;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  background-color: #4591d3;
+  padding: 9px 36px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 40px;
+  color: #c33838;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0.3em;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #444444;
+  margin: 1.5em 0;
+}
+
+p {
+  margin: 1.5em 0;
+  padding: 0 15px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.app-list {
+  margin: 1.5rem 0;
+  padding-left: 30px;
+  line-height: 2;
+}
+
+.app-video {
+  width: 560px;
+  height: 315px;
+  border: 5px solid #9a9a9a;
+}
+
+.conclusion-text {
+  color: #942d2d;
+}
