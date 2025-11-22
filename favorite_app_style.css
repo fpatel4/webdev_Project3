@@ -80,3 +80,23 @@ p {
 .conclusion-text {
   color: #942d2d;
 }
+
+#map {
+  width: 700px;
+  height: 500px;
+  background-color: #cccccc;
+  margin: 30px auto;
+}
+
+#map-nav {
+  margin-bottom: 20px;
+}
+
+#questions {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+#questions:hover {
+  background-color: #a5a5a5;
+}

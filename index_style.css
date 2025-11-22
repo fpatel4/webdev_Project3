@@ -28,7 +28,10 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 0 1.5em;
+}
+
+nav ul li {
+  margin: 1em 2em;
 }
 
 nav a {
@@ -127,4 +130,32 @@ img {
 
 .clear-list {
   clear: both;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: #dbf4ff;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  nav ul {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: #e8e0ff;
+  }
+  
+  .container {
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
 }
