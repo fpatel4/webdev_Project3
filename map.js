@@ -49,4 +49,4 @@ function init() {
   button.addEventListener('click', displayAlert);
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+window.onload = init;
